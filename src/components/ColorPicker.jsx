@@ -12,7 +12,7 @@ const ColorPicker = ({ color, handleChangeColor, handleSubmitSaveColor}) => {
         className="form-control"
         style={{
           width: "100%",
-          height: "300px",
+          height: "302px",
         }}
         title='Seleccione un color..'
         values={color}
