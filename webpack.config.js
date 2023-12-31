@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "https://6590b9941f7c2bbf53f0dd01--deft-macaron-be8d70.netlify.app/",
   },
 
   resolve: {
